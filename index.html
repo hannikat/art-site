@@ -1,98 +1,78 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="he">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
   <title>האמנים שאני אוהב</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
     body {
-      font-family: 'Comfortaa', sans-serif;
-      background-color: #d6f5d6;
-      background-image:
-        radial-gradient(circle at 20% 20%, #b6e3b6 8%, transparent 9%),
-        radial-gradient(circle at 80% 80%, #c9efc9 10%, transparent 11%),
-        radial-gradient(circle at 60% 30%, #9fd89f 7%, transparent 8%),
-        radial-gradient(circle at 30% 70%, #b0ecb0 9%, transparent 10%),
-        radial-gradient(circle at 50% 50%, #a8dba8 12%, transparent 13%),
-        radial-gradient(circle at 10% 90%, #c2f0c2 10%, transparent 11%),
-        radial-gradient(circle at 90% 10%, #b2e8b2 9%, transparent 10%);
-      background-size: cover;
-      background-repeat: no-repeat;
-      color: #2f4f2f;
-      margin: 0;
-      padding: 0;
-      line-height: 1.8;
+      background: radial-gradient(circle at 20% 30%, #cdeac0, #88b888);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #1a3d2b;
+      padding: 20px;
+      line-height: 1.6;
     }
-    header {
-      background-color: #2f4f2f;
-      color: white;
-      padding: 30px;
+    h1, h2 {
       text-align: center;
-    }
-    main {
-      padding: 30px;
-    }
-    section {
-      margin-bottom: 60px;
-      background: rgba(255, 255, 255, 0.85);
-      border-radius: 12px;
-      padding: 25px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      font-size: 2.5em;
-    }
-    h2 {
-      color: #2f7033;
-      font-size: 1.8em;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 15px 0;
-      border-radius: 8px;
+      color: #0d2f1c;
     }
     .artist {
-      border-bottom: 2px dashed #a0cfa0;
-      padding-bottom: 30px;
+      background-color: rgba(255, 255, 255, 0.7);
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 16px;
+      max-width: 800px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .images {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .images img {
+      max-width: 45%;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>האמנים שאני אוהב</h1>
-    <p>ואן גוך, פיקאסו, קית' הארינג ויאיוי קוסאמה - מקורות ההשראה שלי.</p>
-  </header>
-  <main>
-    <section class="artist" id="vangogh">
-      <h2>וינסנט ואן גוך</h2>
-      <p>וינסנט ואן גוך (1853–1890) היה צייר פוסט-אימפרסיוניסטי הולנדי, שהשפיע רבות על התפתחות האמנות המודרנית. למרות חייו הקצרים והמכירה הבודדת של יצירה בזמן חייו, הוא יצר יותר מ־2,000 יצירות, כולל כ־860 ציורי שמן. סגנונו הייחודי עם משיכות מכחול חזקות, צבעים עזים והבעה רגשית עזה פתח דרך חדשה בציור.</p>
-      <p>ואן גוך הרבה לצייר פורטרטים, נופים וטבע דומם, תוך שהוא מבטא בהם את מצבו הנפשי. האמנות שלו הפכה לסמל של האמן הסובל. הוא סבל מהפרעות נפשיות וחי חלק מחייו במוסדות פסיכיאטריים. לאחר מותו זכתה יצירתו להכרה עולמית. "ליל כוכבים", "חמניות", "דיוקן עצמי עם אוזן חתוכה" — יצירות מופת של עולם האמנות.</p>
-      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD... (Обрезано для примера)" alt="ואן גוך" />
-    </section>
+  <h1>האמנים שאני אוהב</h1>
 
-    <section class="artist" id="picasso">
-      <h2>פבלו פיקאסו</h2>
-      <p>פבלו פיקאסו (1881–1973) היה אמן ספרדי, פסל ואחת הדמויות החשובות ביותר באמנות המאה ה־20. הוא היה ממייסדי הקוביזם, חקר סגנונות חדשים והתנסה בטכניקות רבות. פיקאסו הותיר אחריו יותר מ־20,000 יצירות.</p>
-      <p>דרכו האמנותית מתחלקת לתקופות: התקופה הכחולה, הוורודה, הקוביזם, הסגנון הקלאסי, הסוריאליזם ועוד. ציורו "גרניקה" הוא מניפסט אנטי-מלחמתי מפורסם. פיקאסו עסק גם בקרמיקה, עיצוב במה, ועיצב את התרבות החזותית של זמנו.</p>
-      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD... (Обрезано для примера)" alt="פיקאסו" />
-    </section>
+  <div class="artist">
+    <h2>וינסנט ואן גוך</h2>
+    <div class="images">
+      <img src="images/VanGogh_1887_Selbstbildnis.jpg" alt="ואן גוך">
+      <img src="images/Bedroom in Arles (Second version).jpg" alt="חדר בארל">
+    </div>
+    <p>ואן גוך היה צייר הולנדי פוסט-אימפרסיוניסטי שיצר מעל 2,000 יצירות אמנות במהלך חייו הקצרים. הוא ידוע בשימוש הנועז בצבע ובמשיכות המכחול האקספרסיביות שלו. עבודותיו לא הוכרו בחייו, אך היום נחשב לאחד מגדולי האמנים בהיסטוריה.</p>
+  </div>
 
-    <section class="artist" id="haring">
-      <h2>קית' הארינג</h2>
-      <p>קית' הארינג (1958–1990) היה אמן אמריקאי שהתפרסם בציוריו ברחוב ובדמויות הגרפיות האייקוניות שלו. סגנונו התבסס על קווים ברורים, סמלים חוזרים (אנשים, כלבים, לבבות) וצבעים עזים. הוא יצר גרפיטי, פוסטרים, ציורים ואף בגדים.</p>
-      <p>הארינג היה קול מרכזי בדור הצעיר של שנות ה־80, ועסק רבות בנושאים חברתיים ופוליטיים: מאבק באיידס, גזענות, ומיליטריזם. הוא נאבק למען זכויות להט"ב והשתמש באמנות כאקטיביזם. למרות חייו הקצרים, יצירתו נוכחת היום במוזיאונים המובילים בעולם.</p>
-      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD... (Обрезано для примера)" alt="קית' הארינג" />
-    </section>
+  <div class="artist">
+    <h2>פבלו פיקאסו</h2>
+    <div class="images">
+      <img src="images/Pablo_picasso_1.jpg" alt="פיקאסו">
+      <img src="images/MediterraneanVillage.jpg" alt="כפר ים תיכוני">
+    </div>
+    <p>פיקאסו היה אחד האמנים החשובים ביותר של המאה ה-20. הוא היה ממייסדי הקוביזם ויצר אלפי יצירות אמנות, כולל ציורים, פסלים והדפסים. סגנונו השתנה רבות לאורך חייו, ותמיד היה חדשני וחוקר.</p>
+  </div>
 
-    <section class="artist" id="kusama">
-      <h2>יאיוי קוסאמה</h2>
-      <p>יאיוי קוסאמה (נולדה ב־1929) היא אמנית יפנית, יוצרת מיצגים וסופרת, הידועה באינסטלציות שלה עם נקודות, מראות וחללים אינסופיים. מאז ילדותה סבלה מהזיות, שהפכו לשפה החזותית שלה. עבודותיה מבטאות תחושת התמסמסות בתוך אינסוף.</p>
-      <p>קוסאמה היא מהבולטות באמנות האוונגרד. חיה ויצרה בניו יורק, הייתה חלק מתנועת הפופ-ארט והמינימליזם, ולאחר מכן חזרה ליפן, שם חיה מרצון במוסד פסיכיאטרי תוך שהיא ממשיכה ליצור. התערוכות שלה מושכות מיליוני מבקרים, והיצירות האייקוניות שלה הפכו לסמל תרבות עכשווי.</p>
-      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD... (Обрезано для примера)" alt="יאיוי קוסאמה" />
-    </section>
-  </main>
+  <div class="artist">
+    <h2>קית' הרינג</h2>
+    <div class="images">
+      <img src="images/Keith_Haring.webp" alt="הרינג">
+      <img src="images/dj dog.webp" alt="ציור של כלב די.ג'יי">
+    </div>
+    <p>הרינג היה אמן רחוב אמריקאי שהפך לדמות מרכזית בתרבות הפופ של שנות ה-80. יצירותיו מאופיינות בקווים שחורים עבים, צבעים עזים ודימויים חברתיים ופוליטיים. הוא נלחם למען זכויות האדם ושילב אמנות עם אקטיביזם.</p>
+  </div>
+
+  <div class="artist">
+    <h2>יאיוי קוסמה</h2>
+    <div class="images">
+      <img src="images/1200px-Yayoi_Kusama_cropped_1_Yayoi_Kusama_201611.jpg" alt="קוסמה">
+      <img src="images/pumpkin object.webp" alt="דלעת אומנותית">
+    </div>
+    <p>קוסמה היא אמנית יפנית עכשווית הידועה בהתקנות הסוריאליסטיות שלה, דפוסי הנקודות החוזרים ונשנים, וחדרי המראות האינסופיים. היא חוקרת נושאים של תודעה, זהות ואינסופיות באמצעות עבודות אמנות חווייתיות ומעוררות השראה.</p>
+  </div>
 </body>
 </html>
